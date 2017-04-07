@@ -1,32 +1,47 @@
 .module-8{
-    body {
-        max-width:1440px; margin:0 auto
-    }
     .lavender-grid{
         padding-top: 0.05px;
         padding-bottom: 0.05px;
+        width: 100%;
     }
     .menu-center:last-child{
         margin-bottom: 20px;
     }
     .menu-center{
-        .sep-before,
-        .sep-after,
+        position: relative;
+        margin: 30px 0 30px 0;
+        text-align: center;
+        .sep-before
         {
-            max-width: 50%;
+            width: 50%;
             font-size: 10px;
-            display: table-cell;
-            max-width: 100%;
-            vertical-align: middle;
             text-align: right;
+            vertical-align: middle;
+            display: table-cell;
+            padding-top: 24px;           
+        }
+        .sep-line{
+            display: inline-block;
+            width: 30%;
+            border-top: 0 solid;
+            border-bottom: 1px solid;
+            color: #EDEDED;
+            vertical-align: baseline;
+        }
+        .sep-after{
+            width: 50%;
+            font-size: 10px;
+            text-align: left;
+            display: table-cell;
+            vertical-align: middle;
+            padding-top: 24px;
         }
         .content{
             padding-right: .7em;
             padding-left: .7em;
+            display: table-cell;
             vertical-align: middle;
             white-space: nowrap;
-            margin: 0;
-            line-height: 1;
             .text-divider-double{
                 position: relative;
                 letter-spacing: 2px;
@@ -39,7 +54,7 @@
                 font-size: 1em;
                 letter-spacing: 0.3em;
                 vertical-align: baseline;
-                font-size: 15;
+                font-size: 16px;
             }
             .text-divider-subtitle:before,
                 .text-divider-subtitle:after{
@@ -51,32 +66,15 @@
                 padding: 0px 5px;
             }
         }
-        .sep-line{
-            display: inline-block;
-            max-width: 30%;
-            border-top: 0 solid;
-            border-bottom: 1px solid;
-            color: blue;
-            vertical-align: baseline;
-        }
-        .sep-after{
-            max-width: 50%;
-            font-size: 10px;
-            text-align: left;
-        }
-        position: relative;
-        margin: 30px 0 30px 0;
-        text-align: center;
     }
     .module-8-main{
-        z-index: 555;
-        display: block;
-        float: none;
-        margin: auto;
-        max-width: 1260px;
-        max-width: auto;
+        padding-top:40px;
+        h3
+        {
+            padding-bottom: 12px;
+            padding-right: 60px;
+        }
         .grid-1{
-            float : left;
             .cleafix{    
                 clear: both;          
             }
@@ -95,19 +93,10 @@
                     position: absolute;
                 }
                 h2{
-                    max-width: auto;
                     font: 24px/32px 'Libre Baskerville';
                     margin-top: 15px;
                     transition: all .2s ease;
                     color: #cb7052;
-                }
-                .fp_menu_expand{
-                    opacity: 0.4;
-                    display: none;
-                    width: 18px;
-                    height: 25px;
-                    //background: url(../../assets/images/arrows_colps.png) right center no-repeat;
-                    margin-left: 10px;
                 }
                 .fp_container{
                     padding-bottom: -20px;
@@ -143,58 +132,32 @@
                         h3:hover{
                             background-color: #ffffff;
                             display: block;
-                            //color: #ffffff;
                             color: #cb7152;
                         }
                         h3{
-                            padding-right: 60px;
                             position: relative;
-                            margin-bottom: 2px;
-                            transition: all .3s;
                             font-size: 16px;
                             color: #000000;
                             font-family: Varela Round;
                             margin: 5px 0;
-                            font-weight: 400;
-                            letter-spacing: 0;
                             line-height: 130%;
-                            padding: 0px;
-                            word-spacing: normal;
                             padding-bottom: 10px;
                         }
                         .fp_price{
-                            background: transparent;
                             position: absolute;
                             right: 0px;
-                            top: 0px;
                             font-style: normal;
-                            font-weight: normal;
                             font-size: 14px;
-                            border-radius: 25px;
-                            padding: 0px;
                             color: #cb7152;
-                            margin-right: 0px;
-                            margin-top: -3px;
-                            float: right;
                             font: inherit;
-                            vertical-align: baseline;
                         }
                     }
                     padding-top: 7px;
-                    border: none;
-                    box-shadow: none;
-                    box-sizing: border-box;
                     margin-right: 10px;
                     margin-bottom: 5px;
-                    overflow: inherit;
-                    min-height: initial;
-                    line-height: 100%;
                     cursor: pointer;
                     width: 100%;
                     position: relative;
-                    float: left;
-                    display: block;
-                    transition: all .2s ease;
                 }
                 font-family: 'Varela Round';
                 background: transparent;
@@ -202,18 +165,16 @@
                 color: #767676;
                 position: relative;
             }
-            padding-top: 0.05px;
-            padding-bottom: 0.05px;
-            max-width: 33.33333333%;
-            position: relative;
-            padding: 0;
-            float: left;
-            box-sizing: border-box;
-            display: block;
             padding: 0 25px;
         }
     }
 }    
+@media (min-width: 1300px)
+{
+    .container {
+        width: 1300px;
+    }
+}
 @media (max-width: 956px) {
     .module-8{
         .module-8-main
@@ -225,11 +186,13 @@
         }
     }
 }
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) { 
-
+@media (min-width: 1297px) { 
+.module-8{
+        .module-8-main
+        {
+            .grid-1{
+                max-width: 33,333%;
+            }
+        }
+    }
 }
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { }

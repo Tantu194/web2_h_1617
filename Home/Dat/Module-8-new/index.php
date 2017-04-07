@@ -42,7 +42,6 @@
                             <div class="foodpress_menu">
                                 <h2>
                                     Breakfast
-                                    <span class="fp_menu_expand"></span>
                                 </h2>
                                 <div class="fp_container">
                                     <div class="food_items_container">
@@ -130,7 +129,6 @@
                                 </div>
                                 <h2>
                                     Bruch
-                                    <span class="fp_menu_expand"></span>
                                 </h2>
                                 <div  class="fp_box">
                                     <div class="inner">
@@ -159,7 +157,7 @@
                                 <div  class="fp_box">
                                     <div class="inner">
                                         <h3>
-                                            Cashew Chicken With Stir-Fry <br> Vegetables & Green Salad
+                                            Cashew Chicken With Stir-Fry Vegetables & Green Salad
                                             <span class="fp_price">$22</span>
                                         </h3>
                                         <div class="menu_description">
@@ -171,7 +169,7 @@
                                 <div  class="fp_box">
                                     <div class="inner">
                                         <h3>
-                                            Coffee & Strawberry Jam French Toast <br> with Strawberry Butter Combo Menu
+                                            Coffee & Strawberry Jam French Toast with Strawberry Butter Combo Menu
                                             <span class="fp_price">$11</span>
                                         </h3>
                                         <div class="menu_description">
@@ -183,7 +181,7 @@
                                 <div  class="fp_box">
                                     <div class="inner">
                                         <h3>
-                                            Coffee and Pain au chocolat (Chocolate <br> croissant) Combo Menu
+                                            Coffee and Pain au chocolat (Chocolate  croissant) Combo Menu
                                             <span class="fp_price">$11</span>
                                         </h3>
                                         <div class="menu_description">
@@ -267,7 +265,6 @@
                             <div class="foodpress_menu">
                                 <h2>
                                     Dinner
-                                    <span class="fp_menu_expand"></span>
                                 </h2>
                                 <div class="fp_container">
                                     <div class="food_items_container">
@@ -322,7 +319,7 @@
                                         <div  class="fp_box">
                                             <div class="inner">
                                                 <h3>
-                                                    Head on prawns, manila clams & <br> mussels
+                                                    Head on prawns, manila clams &  mussels
                                                     <span class="fp_price">$39</span>
                                                 </h3>
                                                 <div class="menu_description">
@@ -382,7 +379,6 @@
                                 </div>
                                 <h2>
                                     Lunch
-                                    <span class="fp_menu_expand"></span>
                                 </h2>
                                 <div  class="fp_box">
                                     <div class="inner">
@@ -423,7 +419,7 @@
                                 <div  class="fp_box">
                                     <div class="inner">
                                         <h3>
-                                            Creamy smoked salmon, leek & potato <br> soup
+                                            Creamy smoked salmon, leek & potato  soup
                                             <span class="fp_price">$9.50</span>
                                         </h3>
                                         <div class="menu_description">
@@ -435,7 +431,7 @@
                                 <div  class="fp_box">
                                     <div class="inner">
                                         <h3>
-                                            Head on prawns, manila clams & <br> mussels
+                                            Head on prawns, manila clams &  mussels
                                             <span class="fp_price">$39</span>
                                         </h3>
                                         <div class="menu_description">
@@ -483,8 +479,7 @@
                         <div class="grid-1 col-md-4 col-sm-12 col-xm-12">
                             <div class="foodpress_menu">
                                 <h2>
-                                    Dinner
-                                    <span class="fp_menu_expand"></span>
+                                    Dessert
                                 </h2>
                                 <div class="fp_container">
                                     <div class="food_items_container">
@@ -539,7 +534,7 @@
                                         <div  class="fp_box">
                                             <div class="inner">
                                                 <h3>
-                                                    Head on prawns, manila clams & <br> mussels
+                                                    Head on prawns, manila clams &  mussels
                                                     <span class="fp_price">$39</span>
                                                 </h3>
                                                 <div class="menu_description">
@@ -599,7 +594,6 @@
                                 </div>
                                 <h2>
                                     Lunch
-                                    <span class="fp_menu_expand"></span>
                                 </h2>
                                 <div  class="fp_box">
                                     <div class="inner">
@@ -640,7 +634,7 @@
                                 <div  class="fp_box">
                                     <div class="inner">
                                         <h3>
-                                            Creamy smoked salmon, leek & potato <br> soup
+                                            Creamy smoked salmon, leek & potato  soup
                                             <span class="fp_price">$9.50</span>
                                         </h3>
                                         <div class="menu_description">
@@ -652,7 +646,7 @@
                                 <div  class="fp_box">
                                     <div class="inner">
                                         <h3>
-                                            Head on prawns, manila clams & <br> mussels
+                                            Head on prawns, manila clams & mussels
                                             <span class="fp_price">$39</span>
                                         </h3>
                                         <div class="menu_description">
