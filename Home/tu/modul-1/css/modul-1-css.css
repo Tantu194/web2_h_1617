@@ -11,10 +11,12 @@ body {
 }
 header {
   position: relative;
+  margin-bottom: 800px;
 }
 header .m1-navi-boder {
   width: 100%;
   transition: all 1s;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.04);
   border-bottom: 1px solid rgba(255,255,255,0.1);
   z-index: 1;
 }
@@ -227,23 +229,72 @@ header .m1-navi-menus-Activity {
   color: #cb7152 !important;
 }
 header .m1-banner {
-  transition: all 1s;
+  position: relative;
+  width: 100%;
+}
+header .m1-banner ul {
+  width: 100%;
+  height: 520px;
+}
+header .m1-banner ul li {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+header .m1-banner ul li .m1-banner-img {
   position: absolute;
-  background-color: rgba(0,0,0,0);
   background-repeat: no-repeat;
   background-image: url(../img/slider-bg-coffe-1.jpg);
   background-size: cover;
   background-position: center center;
-  opacity: 1;
+  width: 100%;
+  height: 100%;
   visibility: inherit;
   z-index: 0;
-  width: 100%;
-  height: 500px;
+}
+header .m1-banner .m1-banner-caption {
+  position: absolute;
+  left: 35%;
+  top: 30%;
+}
+header .m1-banner .m1-banner-caption .m1-banner-caption-layer1 {
+  font-family: Kaushan Script;
+  transform: matrix3d(0.990268,-0.139173,0,0,0.139173,0.990268,0,0,0,0,1,0,0,0,0,1);
+  transform-origin: 50% 50% 0px;
+  color: #ffffff;
+  font-size: 850%;
+}
+.m1-navi-scrollTop {
+  transition: none !important;
+  position: fixed !important;
+  display: none;
+  background-color: #ffffff !important;
+}
+.m1-navi-scrollTop .m1-navi .m1-navi-logo a {
+  color: #000 !important;
+}
+.m1-navi-scrollTop .m1-navi .m1-navi-menus ul li .m1-navi-menus-subMenu {
+  background-color: #ffffff !important;
+}
+.m1-navi-scrollTop .m1-navi .m1-navi-menus ul li .m1-navi-menus-subMenu .m1-navi-menus-subMenu-1 {
+  background-color: #ffffff !important;
+}
+.m1-navi-scrollTop .m1-navi .m1-navi-menus ul a {
+  color: #000 !important;
+}
+.m1-navi-scrollTop .m1-navi .m1-navi-menus ul .m1-navi-menus-Activity {
+  color: #cb7152 !important;
+}
+.m1-navi-scrollTop .m1-navi .m1-navi-icon .m1-navi-cart-icon {
+  color: #000 !important;
+}
+.m1-navi-scrollTop .m1-navi .m1-navi-icon .m1-search-btn {
+  color: #000 !important;
 }
 @media screen and (min-width: 961px) {
   .m1-navi-boder {
     transition: all 1s;
-    position: fixed;
+    position: absolute;
     background-color: transparent;
   }
   .m1-navi-boder .m1-navi .m1-navi-logo {
@@ -281,6 +332,9 @@ header .m1-banner {
   }
   .m1-navi-boder .m1-navi .m1-navi-menus {
     background-color: #ffffff;
+  }
+  .m1-navi-boder .m1-navi .m1-navi-menus ul {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.04);
   }
   .m1-navi-boder .m1-navi .m1-navi-menus ul a {
     color: #000;
@@ -368,6 +422,11 @@ header .m1-banner {
     visibility: visible;
     transition: all 0.5s 0.5s ease-out;
   }
+}
+@font-face {
+  font-family: Kaushan Script;
+  src: url(../fonts/Kaushan-Script.woff2);
+  font-weight: bold;
 }
 @font-face {
   font-family: Libre Baskerville;

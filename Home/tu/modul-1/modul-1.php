@@ -17,6 +17,7 @@
     </head>
     <body>
         <header>
+            <!-----------------------NAVIGATOR------------------------------->
             <div class="m1-navi-boder">
                 <div class="m1-navi">
                     <div class="m1-navi-logo">
@@ -112,11 +113,22 @@
                     </div>
                 </div>
             </div>
+            <!----------------------SLIDE SHOW-------------------->
             <div class="m1-banner">
-
+                <ul>
+                    <li>
+                        <div class="m1-banner-img">
+                            
+                        </div>
+                    </li> 
+                </ul>
+                <div class="m1-banner-caption">
+                    <div class="m1-banner-caption-layer1">Coffee</div>
+                </div>
             </div>
         </header>
     </body>
     <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+    <script src="js/m1-slide-js.js" type="text/javascript"></script>
     <script src="js/modul1-navi-js.js" type="text/javascript"></script>
 </html>
