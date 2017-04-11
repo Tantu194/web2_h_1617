@@ -13,7 +13,7 @@
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/modul-1-css.css" rel="stylesheet" type="text/css"/>
-        
+
     </head>
     <body>
         <header>
@@ -118,12 +118,14 @@
                 <ul>
                     <li>
                         <div class="m1-banner-img">
-                            
+
                         </div>
                     </li> 
                 </ul>
                 <div class="m1-banner-caption">
-                    <div class="m1-banner-caption-layer1">Coffee</div>
+                    <div class="m1-banner-caption-layer layer-0">Coffee</div>
+                    <div class="m1-banner-caption-layer layer-1">Matters</div>
+                    <div class="m1-banner-caption-layer layer-2">~ Since 1987 ~</div>
                 </div>
             </div>
         </header>
