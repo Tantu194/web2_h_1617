@@ -23,7 +23,7 @@ ul {
   top: 0;
   width: 100%;
   height: 100%;
-  z-index: 1;
+  z-index: 10;
 }
 .m2 .m2-container .m2-grip .m2-grip-paralax .m2-grip-background {
   width: 100%;
