@@ -90,23 +90,6 @@
                 </div>
             </div>
             <div class="blank-space"></div>
-            <div class="lavender-grid">
-                <div class="menu-center">
-                    <div class="sep-before"> 
-                        <div class="sep-line"></div>
-                    </div>
-                    <div class="content">
-                        <h2 class="text-divider-double">
-                            News & Events
-                        </h2>
-                        <div class="text-divider-subtitle">Today Specials</div>
-                    </div>
-                    <div class="sep-after">
-                        <div class="sep-line"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="blank-space"></div>
         </div>
     </body>
 </html>
