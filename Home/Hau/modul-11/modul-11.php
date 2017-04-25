@@ -25,7 +25,7 @@
             <div class="clearfix"></div>
             <div class="row">
                 <div class="m11-col-footer">
-                    <div class="col-md-4 c1">
+                    <div class="col-md-4 c1 col-sm-4">
                         <h4>About</h4>
                         <p>Osteria Francescana is a restaurant owned and run by chef Massimo Bottura in Modena, Italy</p>
                         <p>
@@ -36,7 +36,7 @@
                             </a>
                         </p>
                     </div>
-                    <div class="col-md-4 c2">
+                    <div class="col-md-4 c2 col-sm-4">
                         <h4>Get news & offers</h4>
                         <div class="c2-input">
                             <input type="email" name="EMAIL" placeholder="Your email" required="">
@@ -61,7 +61,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-4 c3">
+                    <div class="col-md-4 c3 col-sm-4">
                         <h4>Contacts</h4>
                         <p>Via Stella, 22<br>
                             Modena MO, Italy<br>
