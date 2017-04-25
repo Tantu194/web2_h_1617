@@ -14,7 +14,6 @@
   float: left;
 }
 .Module-6 .anhcafe .M6-grid-1-2 {
-  width: 68%;
   padding-left: 70px;
   padding-top: 40px;
 }
@@ -35,9 +34,108 @@
   font-size: 20px;
   margin: 0 0 10px;
 }
-.Module-6 .anhcafe .anh4 {
-  width: 25%;
+.Module-6 .M7 {
+  padding-top: 40px;
   float: left;
+}
+.Module-6 .M7 #quote-carousel {
+  padding: 0 10px 30px 10px;
+  margin-top: 30px 0px 0px;
+}
+.Module-6 .M7 .carousel-inner {
+  max-height: 350px;
+}
+.Module-6 .M7 #quote-carousel .carousel-control {
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 90px;
+}
+.Module-6 .M7 #quote-carousel .carousel-indicators {
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+  padding-top: 20px;
+}
+.Module-6 .M7 #quote-carousel .carousel-indicators li {
+  background: #c0c0c0;
+}
+.Module-6 .M7 #quote-carousel .carousel-indicators .active {
+  background: #333333;
+}
+.Module-6 .M7 #quote-carousel img {
+  width: 250px;
+  height: 191px;
+  border-radius: 8px;
+}
+.Module-6 .M7 .item blockquote {
+  border-left: none;
+  margin: 0;
+}
+.Module-6 .M7 .item blockquote img {
+  margin-bottom: 10px;
+}
+.Module-6 .M7 .item blockquote p:before {
+  content: "\f10d";
+  font-family: 'Fontawesome';
+  float: left;
+  margin-right: 10px;
+}
+.Module-6 .M7 h5 {
+  position: relative;
+  float: none;
+  text-transform: uppercase;
+  font-family: 'Libre Baskerville';
+  line-height: 1.3em;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #2c2c2c;
+  margin-top: -5px;
+  padding-top: 10px;
+}
+.Module-6 .M7 .carousel-inner a:hover {
+  color: #ec971f;
+}
+.Module-6 .M7 .carousel-inner .tagged_as {
+  margin: 0;
+  display: block;
+  padding: 0px 5px;
+  line-height: 1em;
+}
+.Module-6 .M7 .carousel-inner .tagged_as a {
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #6b6b6b;
+  text-decoration: none;
+}
+.Module-6 .M7 .carousel-inner .tagged_as a:hover {
+  color: #cb7152;
+  opacity: 1;
+}
+.Module-6 .M7 .carousel-inner a {
+  text-decoration: none;
+}
+.Module-6 .M7 .carousel-inner a h3 {
+  color: #000000;
+  font-size: 18px;
+  padding-bottom: .1em;
+  line-height: 1.4em;
+  transition: color .3s;
+  padding: .3em 1.0em;
+  transition: all .6s;
+  text-align: center;
+}
+.Module-6 .M7 .carousel-inner .price {
+  display: block;
+  color: #000000;
+  position: relative;
+  transform: translateZ(0);
+  margin: 0px;
+  text-align: center;
 }
 .Module-6 .anhdau {
   z-index: 555;
@@ -51,7 +149,6 @@
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  padding-top: 40px;
 }
 .Module-6 .anhdau p img {
   box-sizing: border-box;
@@ -61,6 +158,7 @@
   padding-left: 100px;
   font-size: 100%;
   margin: 0 auto;
+  padding-top: 50px;
 }
 @font-face {
   font-family: theme;
