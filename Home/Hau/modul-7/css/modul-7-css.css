@@ -1,0 +1,116 @@
+.modul-7 {
+  width: 93%;
+  margin: 0 auto;
+}
+.modul-7 .m7-tabs-all {
+  margin-top: 100px;
+  text-align: center;
+}
+.modul-7 .m7-tabs-all .nav-tabs {
+  border: none;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.modul-7 .m7-tabs-all .nav-tabs li a {
+  color: #2c2c2c;
+  cursor: default;
+  width: auto;
+  margin: 0 .6em;
+  transition: all .3s;
+  line-height: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 11px;
+  font-weight: 600;
+  border: none;
+  padding: 0;
+  text-align: center;
+}
+.modul-7 .m7-tabs-all .nav-tabs li a span {
+  display: inline;
+  font: 400 11px/18px "Open Sans", sans-serif;
+  border-radius: 3px;
+  color: #FFFFFF;
+  margin: 0 auto;
+  padding: 4px 0;
+  text-align: center;
+  width: 34px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: transform .25s, opacity .25s;
+  background-color: #626161;
+}
+.modul-7 .m7-tabs-all .nav-tabs li a span:after {
+  border-top: 4px solid #626161;
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+}
+.modul-7 .m7-tabs-all .nav-tabs li a:focus {
+  border: none;
+  outline: none !important;
+  outline-offset: inherit;
+}
+.modul-7 .m7-tabs-all .nav-tabs li a:hover {
+  border: none !important;
+}
+.modul-7 .m7-tabs-all .nav-tabs li a:after {
+  content: " ";
+  display: block;
+  width: 0%;
+  height: 1px;
+  background: #cb7152;
+  margin: auto;
+  margin-top: 5px;
+  transition: all .4s;
+  opacity: 0;
+}
+.modul-7 .m7-tabs-all .nav-tabs li:hover a {
+  border: none;
+  background: none;
+  color: #cb7152;
+}
+.modul-7 .m7-tabs-all .nav-tabs li:hover a:after {
+  width: 40%;
+  opacity: 1;
+}
+.modul-7 .m7-tabs-all .nav-tabs li:hover span {
+  -webkit-transform: translateY(-25px);
+  transform: translateY(-25px);
+  opacity: 1;
+}
+.modul-7 .m7-tabs-all .nav-tabs li:focus {
+  outline: none !important;
+}
+.modul-7 .m7-tabs-all .nav-tabs .active a:hover {
+  border: none !important;
+}
+.modul-7 .m7-tabs-all .nav-tabs .active a:focus {
+  border: none !important;
+}
+.modul-7 .m7-tabs-all .nav-tabs .active a:after {
+  width: 40%;
+  opacity: 1;
+}
+.modul-7 .m7-tabs-all .nav-tabs .active a {
+  color: #cb7152;
+}
+.modul-7 .m7-tabs-all .tab-content .tab-pane img {
+  transition: all .4s;
+  width: 100%;
+}
+@font-face {
+  font-family: Open Sans;
+  src: url('../fonts/OpenSans-Regular.ttf');
+  font-weight: bold;
+}

@@ -1,0 +1,167 @@
+.modul-7{
+    width: 93%;
+    margin: 0 auto;
+    .m7-tabs-all{
+        margin-top: 100px;
+        text-align:center;
+        .nav-tabs{
+            border: none;
+            display: inline-block;
+            margin-bottom:20px;
+            li{
+                a{
+                    color: #2c2c2c;
+                    cursor: default;
+                    width: auto;     
+                    margin: 0 .6em;
+                    transition: all .3s;
+                    line-height: normal;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    font-size: 11px;
+                    font-weight: 600;
+                    border: none;
+                    padding: 0;
+                    text-align: center;
+                    span{
+                        display: inline;
+                        font: 400 11px/18px "Open Sans", sans-serif;
+                        border-radius: 3px;
+                        color: #FFFFFF;
+                        margin: 0 auto;
+                        padding: 4px 0;
+                        text-align: center;
+                        width: 34px;
+                        //height: 30px;
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        right: 0;
+                        opacity: 0;
+                        transition: transform .25s, opacity .25s;
+                        background-color: #626161;
+                    }
+                    span:after{
+                        border-top: 4px solid #626161;
+                        content: "";
+                        position: absolute;
+                        bottom: -4px;
+                        left: 0;
+                        right: 0;
+                        margin: 0 auto;
+                        width: 0;
+                        height: 0;
+                        border-left: 4px solid transparent;
+                        border-right: 4px solid transparent;
+
+                    }
+
+
+                }
+                a:focus{
+                    border: none;
+                    outline: none !important;
+                    outline-offset: inherit;
+
+                }
+                a:hover{
+                    border: none !important;
+                }
+
+                a:after{
+                    content: " ";
+                    display: block;
+                    width: 0%;
+                    height: 1px;
+                    background: #cb7152;
+                    margin: auto;
+                    margin-top: 5px;
+                    transition: all .4s;
+                    opacity: 0;
+                }
+
+            }
+
+            li:hover{              
+                a{
+                    border: none;
+                    background: none;
+                    color: #cb7152;
+                }
+                a:after{
+                    width: 40%;
+                    opacity: 1;
+                }
+                span{
+                    -webkit-transform: translateY(-25px);
+                    transform: translateY(-25px);
+                    opacity: 1;
+                }
+
+            }
+            li:focus{
+                outline: none !important;
+
+            }
+            .active{
+                a:hover{
+                    border: none !important;
+                }
+                a:focus{
+                    border: none !important;
+                }
+                a:after{
+                    width: 40%;
+                    opacity: 1;
+                }
+                a{
+                    color: #cb7152;
+                }
+            }
+        }
+        .tab-content{
+            .tab-pane{
+                img{
+                    transition: all .4s;
+                    width: 100%;
+                }               
+            }
+        }
+    }
+    /*    row{
+            .m7-tab{
+                z-index: 6;
+                text-align: center;
+                margin-bottom: 30px;
+                padding-top: 10px;
+                background: none;
+                width: auto;
+                .m7-tab-one{
+                    display: none;
+                    a{
+                        color: #2D2C2C;
+                        cursor: default;
+                        width: auto;
+                        display: inline-block;
+                        margin: 0 .6em;
+                        color: #2c2c2c;
+                        transition: all .3s;
+                        line-height: normal;
+                        text-transform: uppercase;
+                        cursor: pointer;
+                        letter-spacing: 1px;
+                        font-size: 11px;
+                        font-weight: 600;
+                        border-top: 0;
+                        padding: 0;
+                        text-align: center;
+                    }
+                }
+            }
+        }*/
+}
+@font-face{
+    font-family: Open Sans ;
+    src:url('../fonts/OpenSans-Regular.ttf');
+    font-weight: bold;
+}
