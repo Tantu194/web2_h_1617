@@ -197,9 +197,11 @@
 
                             </div>
                             <div class="m10-button">
-                                <a href="#" class="button">
-                                    <span class="text-button">Load more</span>
-                                </a> 
+                                <p class="c1-btn">
+                                    <a href="#">
+                                        <span class="span-hover">Load more</span>
+                                    </a>
+                                </p>
                             </div>
                         </div>
                     </div>

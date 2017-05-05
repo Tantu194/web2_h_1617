@@ -28,11 +28,9 @@
                     <div class="col-md-4 c1 col-sm-4">
                         <h4>About</h4>
                         <p>Osteria Francescana is a restaurant owned and run by chef Massimo Bottura in Modena, Italy</p>
-                        <p>
-                            <a href="#" class="button">
-                                <span class="text-button">
-                                    Buy this Delicious Theme
-                                </span>
+                        <p class="c1-btn">
+                            <a href="#">
+                                <span class="span-hover">Buy this Delicious Theme</span>
                             </a>
                         </p>
                     </div>
