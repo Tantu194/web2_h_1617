@@ -65,10 +65,10 @@
                                     <a class="fa fa-twitter-square" aria-hidden="true"></a>
                                 </li>
                                 <li class="pin">
-                                    <a class="fa fa-pinterest-square" aria-hidden="true"></a>>
+                                    <a class="fa fa-pinterest-square" aria-hidden="true"></a>
                                 </li>
                                 <li class="tum">
-                                    <a class="fa fa-tumblr-square" aria-hidden="true"></a>>
+                                    <a class="fa fa-tumblr-square" aria-hidden="true"></a>
                                 </li>
                                 <li class="google">
                                     <a class="fa fa-google-plus" aria-hidden="true"></a>

@@ -132,14 +132,17 @@
 }
 .Module-15 .Module-15-summary .icon {
   border-top: 1px solid #EDEDED;
+}
+.Module-15 .Module-15-summary .icon ul {
+  list-style: none;
   padding-top: 50px;
 }
-.Module-15 .Module-15-summary .icon .fb {
+.Module-15 .Module-15-summary .icon ul .fb {
   width: 37px;
   height: 34px;
   float: left;
 }
-.Module-15 .Module-15-summary .icon .fb a {
+.Module-15 .Module-15-summary .icon ul .fb a {
   background: #3b5998;
   color: #fff !important;
   width: 32px;
@@ -149,16 +152,16 @@
   border-radius: 50%;
   text-decoration: none;
 }
-.Module-15 .Module-15-summary .icon .fb a:hover {
+.Module-15 .Module-15-summary .icon ul .fb a:hover {
   border: none;
   opacity: .6;
 }
-.Module-15 .Module-15-summary .icon .tw {
+.Module-15 .Module-15-summary .icon ul .tw {
   width: 37px;
   height: 34px;
   float: left;
 }
-.Module-15 .Module-15-summary .icon .tw a {
+.Module-15 .Module-15-summary .icon ul .tw a {
   background: #00acee;
   color: #fff !important;
   width: 32px;
@@ -168,16 +171,16 @@
   border-radius: 50%;
   text-decoration: none;
 }
-.Module-15 .Module-15-summary .icon .tw a:hover {
+.Module-15 .Module-15-summary .icon ul .tw a:hover {
   border: none;
   opacity: .6;
 }
-.Module-15 .Module-15-summary .icon .pin {
+.Module-15 .Module-15-summary .icon ul .pin {
   width: 37px;
   height: 34px;
   float: left;
 }
-.Module-15 .Module-15-summary .icon .pin a {
+.Module-15 .Module-15-summary .icon ul .pin a {
   background: #ca1f27;
   color: #fff !important;
   width: 32px;
@@ -187,16 +190,16 @@
   border-radius: 50%;
   text-decoration: none;
 }
-.Module-15 .Module-15-summary .icon .pin a:hover {
+.Module-15 .Module-15-summary .icon ul .pin a:hover {
   border: none;
   opacity: .6;
 }
-.Module-15 .Module-15-summary .icon .tum {
+.Module-15 .Module-15-summary .icon ul .tum {
   width: 37px;
   height: 34px;
   float: left;
 }
-.Module-15 .Module-15-summary .icon .tum a {
+.Module-15 .Module-15-summary .icon ul .tum a {
   background: #2c4762;
   color: #fff !important;
   width: 32px;
@@ -206,16 +209,16 @@
   border-radius: 50%;
   text-decoration: none;
 }
-.Module-15 .Module-15-summary .icon .tum a:hover {
+.Module-15 .Module-15-summary .icon ul .tum a:hover {
   border: none;
   opacity: .6;
 }
-.Module-15 .Module-15-summary .icon .google {
+.Module-15 .Module-15-summary .icon ul .google {
   width: 37px;
   height: 34px;
   float: left;
 }
-.Module-15 .Module-15-summary .icon .google a {
+.Module-15 .Module-15-summary .icon ul .google a {
   background: #dd4b39;
   color: #fff !important;
   width: 32px;
@@ -225,7 +228,7 @@
   border-radius: 50%;
   text-decoration: none;
 }
-.Module-15 .Module-15-summary .icon .google a:hover {
+.Module-15 .Module-15-summary .icon ul .google a:hover {
   border: none;
   opacity: .6;
 }
