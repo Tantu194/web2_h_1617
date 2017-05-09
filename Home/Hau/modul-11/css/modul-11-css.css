@@ -43,13 +43,13 @@ footer .m11-col-footer p {
 footer .m11-col-footer .c1 {
   margin-bottom: 50px;
 }
-footer .m11-col-footer .c1 .m3-content-event-btn {
+footer .m11-col-footer .c1 .c1-btn {
   display: inline-block;
   font: normal 16px/24px Varela Round;
   color: #2c2c2c;
   margin-bottom: 0;
 }
-footer .m11-col-footer .c1 .m3-content-event-btn a {
+footer .m11-col-footer .c1 .c1-btn a {
   margin-top: 10px;
   margin-left: 90px;
   position: relative;
@@ -60,7 +60,7 @@ footer .m11-col-footer .c1 .m3-content-event-btn a {
   overflow: hidden;
   transition: color .3s ease-out, border .3s ease-out, background .3s ease-out !important;
 }
-footer .m11-col-footer .c1 .m3-content-event-btn a:after {
+footer .m11-col-footer .c1 .c1-btn a:after {
   background: #cb7152;
   content: '';
   position: absolute;
@@ -71,7 +71,7 @@ footer .m11-col-footer .c1 .m3-content-event-btn a:after {
   left: 0;
   transition: all 0.3s ease-out !important;
 }
-footer .m11-col-footer .c1 .m3-content-event-btn span {
+footer .m11-col-footer .c1 .c1-btn span {
   padding: 10px 24px;
   display: inline-block;
   width: 100%;
@@ -79,7 +79,7 @@ footer .m11-col-footer .c1 .m3-content-event-btn span {
   color: #ffffff;
   font-size: 14px;
 }
-footer .m11-col-footer .c1 .m3-content-event-btn span:before {
+footer .m11-col-footer .c1 .c1-btn span:before {
   color: #fff;
   position: absolute;
   content: "Buy this Delicious Theme";
@@ -91,7 +91,7 @@ footer .m11-col-footer .c1 .m3-content-event-btn span:before {
   padding: 10px 24px;
   background: #cb7152;
 }
-footer .m11-col-footer .c1 .m3-content-event-btn a:after {
+footer .m11-col-footer .c1 .c1-btn a:after {
   background: #cb7152;
   content: '';
   position: absolute;
@@ -102,7 +102,7 @@ footer .m11-col-footer .c1 .m3-content-event-btn a:after {
   left: 0;
   transition: all 0.3s;
 }
-footer .m11-col-footer .c1 .m3-content-event-btn a:hover .span-hover {
+footer .m11-col-footer .c1 .c1-btn a:hover .span-hover {
   transform: translateY(-100%);
   transition: all 0.3s;
 }

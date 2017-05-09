@@ -1,3 +1,6 @@
+a {
+  text-decoration: none !important;
+}
 .modul-7 {
   width: 93%;
   margin: 0 auto;
@@ -75,67 +78,154 @@
 .modul-7 .m7-tabs-all .nav-tabs .active a {
   color: #cb7152;
 }
-.modul-7 .m7-tabs-all .tab-content .tab-pane .tab-content-pic {
+.modul-7 .tab-content .tab-pane .tab-content-pic .product {
+  padding: 0px 0px 20px 0px;
+  text-align: center;
+  border: solid 1px #EDEDED;
+  border-radius: 6px;
+  overflow: hidden;
   position: relative;
-  padding: 0px;
+  z-index: 0;
+  box-sizing: border-box;
+  background: #ffffff;
+  transition: all .2s ease;
 }
-.modul-7 .m7-tabs-all .tab-content .tab-pane .tab-content-pic img {
-  transition: all .4s;
-  width: 100%;
-}
-.modul-7 .m7-tabs-all .tab-content .tab-pane .tab-content-pic span {
-  opacity: 0;
-  position: absolute;
+.modul-7 .tab-content .tab-pane .tab-content-pic .product .productimg {
+  position: relative;
   display: block;
-  top: 50%;
-  transition: opacity 0.3s ease-out, transform 0.3s ease-out;
-  transform: translateY(-50%) !important;
-  margin-top: 0px;
-  z-index: 2;
-  top: 120px;
-  left: 30px;
-  right: 30px;
-  padding: 30px 0px 30px 0;
-  content: '';
-  transition: opacity 0.5s, transform 0.35s;
-  z-index: 1;
-  border: 1px solid #cb7152;
+  max-height: none !important;
+  margin-bottom: 0px;
+  overflow: hidden;
+  transform: translateZ(0);
+  border-radius: 6px 6px 0 0;
 }
-.modul-7 .m7-tabs-all .tab-content .tab-pane .tab-content-pic span h3 {
-  transition: transform 0.35s;
-  transform: translate3d(0,-20px,0);
-  letter-spacing: 1px;
-}
-.modul-7 .m7-tabs-all .tab-content .tab-pane .tab-content-pic span h3 a {
-  padding-top: 30px;
-  padding-left: 15px;
-  padding-right: 15px;
+.modul-7 .tab-content .tab-pane .tab-content-pic .product .productimg img {
   width: 100%;
-  color: #ffffff !important;
-  font-weight: normal;
   display: block;
-  line-height: 1.3em;
-  font: normal 20px/25px Libre Baskerville;
+  border: 0;
+  box-shadow: none;
+  margin: 0;
+  transform: scale(1.1);
+}
+.modul-7 .tab-content .tab-pane .tab-content-pic .product .productimg img:hover {
+  transition: transform 0.6s;
+  transform: scale(1.0);
+}
+.modul-7 .tab-content .tab-pane .tab-content-pic .product .addtocart:hover {
+  opacity: 1;
+  color: #ffffff;
   text-decoration: none;
 }
-.modul-7 .m7-tabs-all .tab-content .tab-pane .tab-content-pic:hover span {
+.modul-7 .tab-content .tab-pane .tab-content-pic .product .addtocart {
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  vertical-align: middle;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 10em;
+  border: none;
+  text-align: center !important;
+  font: normal 13px/1em "Varela Round";
+  padding: 1em 2em;
+  transition: color .3s ease-out, border .3s ease-out, background .3s ease-out !important;
+  background: transparent;
+  border: solid 1px #cb7152;
+  font-size: 11px;
+  padding: 1em 1.9em;
+  margin-top: -60px;
+  background: #ffffff;
+  border: none !important;
+  opacity: 0;
+}
+.modul-7 .tab-content .tab-pane .tab-content-pic .product h5 {
+  padding-top: 30px;
+  position: relative;
+  float: none;
+  text-transform: uppercase;
+  font-family: 'Libre Baskerville';
+  line-height: 1.3em;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #2c2c2c;
+  margin-top: 17px;
+}
+.modul-7 .tab-content .tab-pane .tab-content-pic .product .tagged {
+  margin: 0;
+  display: block;
+  padding: 0px 5px;
+  line-height: 1em;
+}
+.modul-7 .tab-content .tab-pane .tab-content-pic .product .tagged a:hover {
+  outline: none;
+  color: #cb7152;
   opacity: 1;
 }
-.modul-7 .m7-tabs-all .tab-content .tab-pane .tab-content-pic:hover span:before {
+.modul-7 .tab-content .tab-pane .tab-content-pic .product .tagged a {
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #6b6b6b;
+  line-height: 1em;
+  font-weight: normal;
+  opacity: 0.5;
+  transition: all .3s;
+}
+.modul-7 .tab-content .tab-pane .tab-content-pic .product .tagged a:after {
+  content: "\00B7";
+  font-size: 14px;
+  color: #6b6b6b;
+  padding-left: 5px;
+}
+.modul-7 .tab-content .tab-pane .tab-content-pic .product h3 {
+  margin-top: 3px;
+  box-shadow: none;
+  font-size: 18px;
+  color: #000000;
+  padding-bottom: .1em;
+  line-height: 1.4em;
+  transition: color .3s;
+  transition: all .6s;
+  font: normal 18px/25px Libre Baskerville;
+}
+.modul-7 .tab-content .tab-pane .tab-content-pic .product h3:hover {
+  color: #cb7152;
+}
+.modul-7 .tab-content .tab-pane .tab-content-pic .product .price {
+  display: block;
+  color: #000000;
+  position: relative;
+  transform: translateZ(0);
+  margin: 0px;
+  font: normal 16px/18px Libre Baskerville;
+  font-size: .857em;
+  font-weight: 400;
+  font: normal 16px/18px Varela Round;
+}
+.modul-7 .tab-content .tab-pane .tab-content-pic:hover span {
+  opacity: 1;
+}
+.modul-7 .tab-content .tab-pane .tab-content-pic:hover span:before {
   opacity: 1;
   border-left: 0;
   border-right: 0;
   transform: scale(0,1);
   transition: opacity 0.35s, transform 0.35s;
 }
-.modul-7 .m7-tabs-all .tab-content .tab-pane .tab-content-pic:hover span:after {
+.modul-7 .tab-content .tab-pane .tab-content-pic:hover span:after {
   opacity: 1;
   border-top: 0;
   border-bottom: 0;
   transform: scale(1,0);
   transition: opacity 0.35s, transform 0.35s;
 }
-.modul-7 .m7-tabs-all .tab-content .tab-pane .tab-content-pic:hover a:hover {
+.modul-7 .tab-content .tab-pane .tab-content-pic:hover a:hover {
   color: #cb7152 !important;
   transition: opacity 1s, transform 1s;
 }
